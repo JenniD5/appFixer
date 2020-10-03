@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Fixer3"
+             x:Class="Fixer3.MainPage" BackgroundColor="White">
+
+    <StackLayout Margin="50,50,30,30" VerticalOptions="CenterAndExpand" BackgroundColor="White">
+        <!-- Place new controls here -->
+        <Label Text="Bienvenido de nuevo" VerticalOptions="Start" FontSize="Large"></Label>
+
+        <Entry x:Name="Telefono" Placeholder="Telefono" AnchorX="50" AnchorY="20" Margin="0,20,0,30"></Entry>
+        <Entry x:Name="Contraseña" Placeholder="Contraseña" AnchorX="50" AnchorY="20"></Entry>
+        <Button Text="Olvidaste tu contraseña" Margin="0,15,0,20" FontSize="Micro" BackgroundColor="White" x:Name="btnOlvidarcontraseña"></Button>
+        <Button x:Name="Inicio" Text="Iniciar sesion" BackgroundColor="Coral" BorderRadius="20" TextColor="Black" Margin="20,25,50,50" Clicked="Inicio_Clicked" ></Button>
+        <Button Text="Crear cuenta" Margin="0,15,0,20" FontSize="Micro" BackgroundColor="White" x:Name="btnCrearcuenta" Clicked="BtnCrearcuenta_Clicked"></Button>
+    </StackLayout>
+
+</ContentPage>

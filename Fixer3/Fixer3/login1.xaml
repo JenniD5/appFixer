@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fixer3.login1" BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout Margin="50,50,30,30">
+            <Label Text="Bienvenido a Fixer" VerticalOptions="Start"  FontSize="Medium"/>
+            <Label Text="Unete a la experiencia" FontSize="Large" VerticalOptions="Start"></Label>
+            <Image ></Image>
+            <Button Text="Iniciar" x:Name="entrada" Clicked="Entrada_Clicked" BackgroundColor="Coral" BorderRadius="20" Margin="20,25,50,50" TextColor="Black" BorderColor="White" VerticalOptions="EndAndExpand" ></Button>
+            <Button HorizontalOptions="Start" VerticalOptions="End" Text="Crear una cuenta" FontSize="Micro" x:Name="btncrearnuevacuenta" Clicked="Btncrearnuevacuenta_Clicked" BackgroundColor="White" BorderColor="White"></Button>
+           
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
