@@ -15,7 +15,7 @@ namespace Fixer3.Views
     public partial class MenuPage : ContentPage
     {
 
-        HomePage2 RootPage { get => Application.Current.MainPage.Navigation.NavigationStack[1] as HomePage2; }
+        HomePage2 RootPage { get => Application.Current.MainPage.Navigation.NavigationStack[2] as HomePage2; }
 
         List<HomeMenuItem> menuItems;
         public MenuPage()

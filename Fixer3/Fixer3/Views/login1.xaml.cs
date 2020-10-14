@@ -15,6 +15,7 @@ namespace Fixer3
         public login1()
         {
             InitializeComponent();
+         
         }
 
         private async void Entrada_Clicked(object sender, EventArgs e)
