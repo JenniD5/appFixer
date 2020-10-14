@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Fixer3
+namespace Fixer3.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Nuevacuenta : ContentPage
+    public partial class InteresesPage : ContentPage
     {
-        public Nuevacuenta()
+        public InteresesPage()
         {
             InitializeComponent();
         }

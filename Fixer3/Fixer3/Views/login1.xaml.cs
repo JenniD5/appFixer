@@ -17,9 +17,11 @@ namespace Fixer3
             InitializeComponent();
         }
 
-        private void Entrada_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new MainPage());
+        private async void Entrada_Clicked(object sender, EventArgs e)
+        { 
+            //Navigation.PushAsync(new MainPage());
+            Navigation.NavigationStack.ToList().Clear();
+            await Navigation.PushAsync(new MainPage()); 
         }
 
         private void Btncrearnuevacuenta_Clicked(object sender, EventArgs e)

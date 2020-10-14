@@ -20,9 +20,11 @@ namespace Fixer3
            
         }
 
-        private void Inicio_Clicked(object sender, EventArgs e)
+        public async void Inicio_Clicked(object sender, EventArgs e)
         {
-          
+            Navigation.NavigationStack.ToList().Clear();
+            await Navigation.PushAsync(new HomePage2());
+           
         }
 
         private void BtnCrearcuenta_Clicked(object sender, EventArgs e)

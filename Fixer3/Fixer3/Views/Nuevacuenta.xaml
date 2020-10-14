@@ -8,7 +8,7 @@
             <Entry Placeholder="Apellido" AnchorX="50" AnchorY="20" Margin="0,0,0,0" FontSize="Small"></Entry>
             <Entry Placeholder="Contraseña" AnchorX="50" AnchorY="20" Margin="0,0,0,0" FontSize="Small"></Entry>
             <Entry Placeholder="Repite Contraseña" AnchorX="50" AnchorY="20" Margin="0,0,0,0" FontSize="Small"></Entry>
-            <Button x:Name="btnRegistrar" Text="Crear Cuenta" BackgroundColor="Coral" BorderRadius="20" Margin="20,25,50,50" TextColor="Black" VerticalOptions="End" ></Button>
+            <Button x:Name="btnRegistrar" Text="Crear Cuenta" BackgroundColor="Coral" BorderRadius="20" Margin="20,25,50,50" TextColor="Black" VerticalOptions="End" Clicked="Crear_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
